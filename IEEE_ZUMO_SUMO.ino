@@ -1,5 +1,4 @@
-/* This example shows how you might use the Zumo 32U4 in a robot
-sumo competition.
+/* 
 It uses the line sensors to detect the white border of the sumo
 ring so it can avoid driving out of the ring (similar to the
 BorderDetect example).  It also uses the Zumo 32U4's proximity
@@ -67,7 +66,7 @@ const uint16_t scanTimeMax = 4100;
 // The amount of time to wait between detecting a button press
 // and actually starting to move, in milliseconds.  Typical robot
 // sumo rules require 5 seconds of waiting.
-const uint16_t waitTime = 4980;
+const uint16_t waitTime = 4990;
 
 // If the robot has been driving forward for this amount of time,
 // in milliseconds, without reaching a border, the robot decides
